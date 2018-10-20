@@ -8,7 +8,7 @@ using namespace std;
 
 int myrandom(int i) { return rand() % i; }
 
-void stampa(vector<int> aux) {	//per stampare il mazzo
+void stampa(vector<int> aux) {	//Per stampare il mazzo
 
 	for (int i = 0; i < aux.size(); i++) {
 		cout << aux[i] << ' ';
@@ -16,10 +16,9 @@ void stampa(vector<int> aux) {	//per stampare il mazzo
 	cout << endl;
 }
 
-int pop_front(vector<int>& vec) //toglie il primo elemento del vettore con controlli
-{
+int pop_front(vector<int>& vec){//Toglie il primo elemento del vettore con controlli
 	int x = vec[0];
-	assert(!vec.empty() && "E' vuoto"); //termina il programma se l'argomento è falso
+	assert(!vec.empty() && "E' vuoto"); //Termina il programma se l'argomento Ã¨ falso
 	vec.erase(vec.begin());
 	return x;
 }
@@ -30,9 +29,9 @@ void trasla(vector<int>& vet, int k) {
 		pop_front(vet);
 }
 
-void travasa(vector<int>&vet, vector<int>& p) { //elementi di p travasati in coda vet
+void travasa(vector<int>&vet, vector<int>& p) { //Elementi di p travasati in coda vet
 
-	int dim = p.size(); //varia durante la funzione
+	int dim = p.size(); //Variabile d'appoggio perche varia durante l'esecuzione
 	for (int i = 0; i < dim ; i++) {
 		vet.push_back(p[0]);
 		 pop_front(p);
