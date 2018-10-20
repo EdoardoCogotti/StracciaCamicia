@@ -15,5 +15,7 @@ mazzo. Il gioco si basa su due semplici regole:  <br />
    e inserisce la pila di scarti in fondo al suo mazzetto.  <br /> 
    
 Vince chi ottiene tutte le quaranta carte  <br /> 
-Il programma cicla simulando in C++ partite di Straccia Camicia. Ogni partita inizia con un mazzo mescolato casualmente.
+Il programma cicla simulando in C++ partite di Straccia Camicia. Ogni partita inizia con un mazzo mescolato casualmente. <br>
+E' una versione base che mostra a schermo solo le 1000n-esime partite in particolare lo stato iniziale dei mazzi, il numero di turni necessari alla vittoria e chi vince. Questo per ridurre lo spreco di tempo nello spazio I/O e focalizzarsi sulla computazione. <br>
 
+Testando al massimo una partita dura 100 turni circa. Un controllo per quando si supera un certo limite (es.10000 turni) permette di rilevare possibili sequenze infinite.
