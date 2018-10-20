@@ -1,6 +1,6 @@
 # StracciaCamicia
 
-Straccia Camicia è un gioco di carte determistico a due giocatori.
+# Straccia Camicia è un gioco di carte determistico a due giocatori.
 A ogni stato iniziale corrisponde uno e un solo possibile risultato.
 Il mazzo da gioco è formato da 40 carte e presenta due tipi di carte:
  -1,2,3 che sono le carti vincenti
