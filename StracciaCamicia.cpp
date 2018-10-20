@@ -65,9 +65,9 @@ int main() {
 		int contaTurni = 0;
 
 		vector<int> v{ 1, 1, 1, 1, 2, 2, 2, 2, 3, 3, 3, 3,
-						0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
-						0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
-						0, 0, 0, 0 };
+				0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+				0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+				0, 0, 0, 0 };
 
 		//Mescolamento del mazzo
 		random_shuffle(v.begin(), v.end(), myrandom);
